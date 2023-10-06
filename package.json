@@ -21,12 +21,15 @@
     "web-vitals": "^2.1.4",
     "yup": "^0.28.5"
   },
+  
   "scripts": {
     "start": "react-scripts --openssl-legacy-provider start",
-    "build": "react-scripts build",
+    "build": "react-scripts --openssl-legacy-provider build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
-  },
+},
+
+
   "eslintConfig": {
     "extends": [
       "react-app",
