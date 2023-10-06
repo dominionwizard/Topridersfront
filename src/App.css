@@ -1,0 +1,33 @@
+@media screen and (max-width: 1366px) {
+   body p {
+    font-size: 30px;
+   } 
+}
+
+@media screen  and (max-width: 1024){
+ body p {
+    font-size: 20px;
+ }   
+}
+
+@media screen and (max-width:768px) {
+    body p {
+        font-size: 10px;
+    }
+}
+
+
+@media screen and (max-width:480px) {
+    body p {
+        font-size: 8px;
+    }
+}
+.responsive {
+    width: 30vw;
+    height: 30vw;
+}
+.box{
+margin : 5px;
+width: 30%;
+height: 30%;
+}
